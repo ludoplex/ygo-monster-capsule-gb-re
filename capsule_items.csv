@@ -1,0 +1,6 @@
+ID,Hex,Name,Description
+119,0x77,Evo Capsule,Evolution capsule - evolves a monster
+120,0x78,SkillCapsule,Teaches a skill/attack
+121,0x79,HP Capsule,Boosts HP stat
+122,0x7A,AT Capsule,Boosts ATK stat
+123,0x7B,DF Capsule,Boosts DEF stat

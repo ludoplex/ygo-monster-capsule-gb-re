@@ -1,0 +1,29 @@
+Address,Size,Region,Description,Values/Notes
+0xC200,1,WRAM,Current screen/mode,"01=Overworld, 03=Menu, 04=BattlePrep, 05=BattleGrid, 07=BattleAction"
+0xC2E9,1,WRAM,RNG seed,Cycles on input frames
+0xC2ED,1,WRAM,Star Chips (runtime),Max 99
+0xC418,1,WRAM,Turn/animation counter,Wraps at 4-6
+0xC69A,36,WRAM,6x6 Battle Grid,"01=empty, 02=special terrain, 05=player, 06=wall/enemy"
+0xC680,16,WRAM,Battle control state,
+0xC6BE,16,WRAM,Battle turn state,
+0xC6E0,64,WRAM,Board tile data,"Terrain types, space bonuses"
+0xC733,8,WRAM,Battle values,"Attacker/defender IDs, turn info"
+0xC750,48,WRAM,Damage calculation area,
+0xC759,1,WRAM,Damage counter/turns,Increments during attack
+0xC75A,1,WRAM,HP tracking,Changes during damage
+0xC75B,1,WRAM,Attack target monster ID,Species ID of target
+0xC75D,1,WRAM,Dice roll value,Animated: spins then settles
+0xC75F,1,WRAM,Dice result 1,First die value
+0xC760,1,WRAM,Dice result 2 / animation,
+0xC763,1,WRAM,Damage total,Final damage dealt
+0xC769,1,WRAM,Assist/bonus count,"02=2 assists, 10=space bonus?"
+0xC7E5,1,WRAM,Hit probability %,"58=88%, 64=100%, 50=80%"
+0xC830,32,WRAM,Roster header (battle),
+0xC850,160,WRAM,Active monster records,"14 bytes each: C0=player, 60=NPC"
+0x6374,1,SRAM,Star Chips (save),Persisted value
+0x0204,1,SRAM,Monster count (save),Total owned
+0x4000,var,SRAM,Monster roster (save),"14 bytes each, 80 marker"
+0x10A0,34,SRAM,Player stats block,
+0x101C,1,SRAM,Monster level tracking,
+0x64AB,var,SRAM,Roster mirror (save),Copy of 0x4000 data
+0x63E0,1,SRAM,Level tracking mirror,Copy of 0x101C

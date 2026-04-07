@@ -1,0 +1,125 @@
+ID,Hex,Name,Owned,Level,EXP,HP,ATK,DEF,SPD,MoveType,B11,B12,B13,Type
+0,0x00,Ninja Squid,no,,,,,,,,,,,Water
+1,0x01,Great White,no,,,,,,,,,,,Water
+2,0x02,Jellyfish,YES,1,62,22,5,6,5,0x31,0x02,0x5E,0xFF,Water
+3,0x03,Fiend Kraken,no,,,,,,,,,,,Water
+4,0x04,CatpltTurtle,no,,,,,,,,,,,Water
+5,0x05,Leviathan,no,,,,,,,,,,,Water
+6,0x06,Great Pa,YES,1,74,18,5,5,5,0x71,0x06,0x61,0xA4,Warrior
+7,0x07,Gumbo,YES,1,0,20,6,6,4,0x31,0x07,0x62,0xFF,Warrior
+8,0x08,Torike,YES,2,10,26,7,8,7,0x31,0x08,0x63,0xFF,Warrior
+9,0x09,BeaverWarior,no,,,,,,,,,,,Warrior
+10,0x0A,BattleWarior,no,,,,,,,,,,,Warrior
+11,0x0B,Tiger Axe,no,,,,,,,,,,,Warrior
+12,0x0C,MysticHorsmn,no,,,,,,,,,,,Warrior
+13,0x0D,Axe Raider,no,,,,,,,,,,,Warrior
+14,0x0E,Battle Steer,no,,,,,,,,,,,Warrior
+15,0x0F,Battleguard,no,,,,,,,,,,,Warrior
+16,0x10,Garoozis,no,,,,,,,,,,,Warrior
+17,0x11,FlamSwordsmn,no,,,,,,,,,,,Warrior
+18,0x12,Battle Ox,no,,,,,,,,,,,Warrior
+19,0x13,RabidHorsemn,no,,,,,,,,,,,Warrior
+20,0x14,GaiaFiercKni,no,,,,,,,,,,,Warrior
+21,0x15,GaiaDrgnChmp,no,,,,,,,,,,,Warrior
+22,0x16,Toppo,YES,1,0,16,5,4,5,0x71,0x14,0xC8,0xCB,Beast
+23,0x17,Torigun,no,,,,,,,,,,,Beast
+24,0x18,Mtn Warrior,no,,,,,,,,,,,Dragon
+25,0x19,RockOgreGrot,no,,,,,,,,,,,Dragon
+26,0x1A,Ryu-Kishin,no,,,,,,,,,,,Dragon
+27,0x1B,HitotsMeGian,no,,,,,,,,,,,Dragon
+28,0x1C,Harpie Lady,no,,,,,,,,,,,Dragon
+29,0x1D,WingedDragon,no,,,,,,,,,,,Dragon
+30,0x1E,BlacklndDrgn,no,,,,,,,,,,,Dragon
+31,0x1F,Ryu-Kishin P,no,,,,,,,,,,,Dragon
+32,0x20,CrawlingDrgn,no,,,,,,,,,,,Dragon
+33,0x21,KoumoriDragn,no,,,,,,,,,,,Dragon
+34,0x22,CurseOfDragn,no,,,,,,,,,,,Dragon
+35,0x23,Baby Dragon,no,,,,,,,,,,,Dragon
+36,0x24,[7E]??? Dragon,no,,,,,,,,,,,Dragon
+37,0x25,DinosaurWing,YES,1,25,18,7,5,7,0x71,0x21,0x79,0xAA,Dinosaur
+38,0x26,Armorsaurus,YES,1,25,22,6,7,5,0x71,0x22,0x7A,0xAB,Dinosaur
+39,0x27,ArmordLizard,no,,,,,,,,,,,Dinosaur
+40,0x28,Uraby,no,,,,,,,,,,,Dinosaur
+41,0x29,SwdArmOfDrgn,no,,,,,,,,,,,Dinosaur
+42,0x2A,Megazowler,no,,,,,,,,,,,Undead/Zombie
+43,0x2B,TwoHeadKRex,no,,,,,,,,,,,Undead/Zombie
+44,0x2C,Head Sucker,no,,,,,,,,,,,Undead/Zombie
+45,0x2D,SkullServant,no,,,,,,,,,,,Undead/Zombie
+46,0x2E,TheSnakeHair,no,,,,,,,,,,,Undead/Zombie
+47,0x2F,MamothGrvyrd,no,,,,,,,,,,,Undead/Zombie
+48,0x30,Clown Zombie,no,,,,,,,,,,,Undead/Zombie
+49,0x31,ArmordZombie,no,,,,,,,,,,,Undead/Zombie
+50,0x32,DragonZombie,no,,,,,,,,,,,Undead/Zombie
+51,0x33,Pumpking,no,,,,,,,,,,,Insect
+52,0x34,Beeton,no,,,,,,,,,,,Insect
+53,0x35,Hyper Beetle,no,,,,,,,,,,,Insect
+54,0x36,Mogley,YES,1,0,20,5,5,4,0x31,0x32,0xC8,0xFF,Insect
+55,0x37,Brain Slime,YES,1,25,18,5,4,4,0x31,0x33,0xC8,0xFF,Plant/Nature
+56,0x38,Flower Man,no,,,,,,,,,,,Plant/Nature
+57,0x39,Eye Mouth,YES,1,50,18,5,4,5,0x71,0x35,0x88,0xCA,Plant/Nature
+58,0x3A,Big Foot,no,,,,,,,,,,,Plant/Nature
+59,0x3B,Kuriboh,no,,,,,,,,,,,Beast/Bug
+60,0x3C,Mushroom Man,YES,1,25,20,5,6,4,0x31,0x38,0x8B,0xFF,Beast/Bug
+61,0x3D,Cobrada,no,,,,,,,,,,,Beast/Bug
+62,0x3E,Big Insect,YES,1,25,22,6,7,5,0x31,0x39,0x8D,0xFF,Beast/Bug
+63,0x3F,Basic Insect,no,,,,,,,,,,,Beast/Bug
+64,0x40,KillerNeedle,no,,,,,,,,,,,Beast/Bug
+65,0x41,Gokibore,no,,,,,,,,,,,Beast/Bug
+66,0x42,Wolf,no,,,,,,,,,,,Moth/Insect
+67,0x43,Silver Fang,no,,,,,,,,,,,Moth/Insect
+68,0x44,Worm Beast,no,,,,,,,,,,,Moth/Insect
+69,0x45,Larvae Moth,no,,,,,,,,,,,Moth/Insect
+70,0x46,Great Moth [7E],no,,,,,,,,,,,Moth/Insect
+71,0x47,Great Moth [7F],no,,,,,,,,,,,Moth/Insect
+72,0x48,Great Moth [80],no,,,,,,,,,,,Moth/Insect
+73,0x49,Great Moth [81],no,,,,,,,,,,,Moth/Insect
+74,0x4A,Great Moth [82],no,,,,,,,,,,,Moth/Insect
+75,0x4B,Dragon Piper,no,,,,,,,,,,,Fiend/Spellcaster
+76,0x4C,SaggiDrkClwn,no,,,,,,,,,,,Fiend/Spellcaster
+77,0x4D,Horn Imp,no,,,,,,,,,,,Fiend/Spellcaster
+78,0x4E,Gremlin,no,,,,,,,,,,,Fiend/Spellcaster
+79,0x4F,Grappler,no,,,,,,,,,,,Fiend/Spellcaster
+80,0x50,Zanki,no,,,,,,,,,,,Fiend/Spellcaster
+81,0x51,La Jinn,no,,,,,,,,,,,Fiend/Spellcaster
+82,0x52,Crass Clown,no,,,,,,,,,,,Fiend/Spellcaster
+83,0x53,Dungeon Worm,no,,,,,,,,,,,Fiend/Spellcaster
+84,0x54,Shadow Ghoul,no,,,,,,,,,,,Fiend/Spellcaster
+85,0x55,Swordstalker,no,,,,,,,,,,,Fiend/Spellcaster
+86,0x56,Barox,no,,,,,,,,,,,Fiend/Spellcaster
+87,0x57,Dark Chimera,no,,,,,,,,,,,Fiend/Spellcaster
+88,0x58,Judge Man,no,,,,,,,,,,,Fiend/Spellcaster
+89,0x59,MetlGuardian,no,,,,,,,,,,,Fiend/Spellcaster
+90,0x5A,FacelessMage,no,,,,,,,,,,,Boss/Legendary
+91,0x5B,R.E.B.Dragon,no,,,,,,,,,,,Boss/Legendary
+92,0x5C,DarkMagician,no,,,,,,,,,,,Boss/Legendary
+93,0x5D,SummondSkull,no,,,,,,,,,,,Boss/Legendary
+94,0x5E,KngYamimakai,no,,,,,,,,,,,Boss/Legendary
+95,0x5F,BlckSkulDrgn,no,,,,,,,,,,,Boss/Legendary
+96,0x60,ExodiaLftArm,no,,,,,,,,,,,Boss/Legendary
+97,0x61,ExodiaRgtArm,no,,,,,,,,,,,Boss/Legendary
+98,0x62,Exodias Legs,no,,,,,,,,,,,Boss/Legendary
+99,0x63,Exodias Body,no,,,,,,,,,,,Boss/Legendary
+100,0x64,Exodia,no,,,,,,,,,,,Boss/Legendary
+101,0x65,Mystical Elf,no,,,,,,,,,,,Special
+102,0x66,Rogue Doll,no,,,,,,,,,,,Special
+103,0x67,CeltcGuardin,no,,,,,,,,,,,Special
+104,0x68,Wattkid,no,,,,,,,,,,,Special
+105,0x69,DrgCapturJar,no,,,,,,,,,,,Special
+106,0x6A,B.E.W.Dragon,no,,,,,,,,,,,Special
+107,0x6B,B.E.U.Dragon,no,,,,,,,,,,,Special
+108,0x6C,ToonAligator,no,,,,,,,,,,,Special
+109,0x6D,ParrotDragon,no,,,,,,,,,,,Special
+110,0x6E,Dark Rabbit,no,,,,,,,,,,,Special
+111,0x6F,Rude Kaiser,no,,,,,,,,,,,Special
+112,0x70,Joey,no,,,,,,,,,,,Character
+113,0x71,Bakura,no,,,,,,,,,,,Character
+114,0x72,Tristan,no,,,,,,,,,,,Character
+115,0x73,T[1A]a,no,,,,,,,,,,,Character
+116,0x74,Solomon,no,,,,,,,,,,,Character
+117,0x75,Yugi,no,,,,,,,,,,,Character
+118,0x76,Yami Yu,no,,,,,,,,,,,Character
+119,0x77,Evo Capsule,no,,,,,,,,,,,Item/Capsule
+120,0x78,SkillCapsule,no,,,,,,,,,,,Item/Capsule
+121,0x79,HP Capsule,no,,,,,,,,,,,Item/Capsule
+122,0x7A,AT Capsule,no,,,,,,,,,,,Item/Capsule
+123,0x7B,DF Capsule,no,,,,,,,,,,,Item/Capsule

@@ -1,0 +1,12 @@
+Component,Description,Memory Address,Notes
+Grid,6x6 tactical board,0xC69A (36 bytes),"01=empty, 02=special terrain, 06=wall"
+Turn System,One monster per turn,,"Player chooses: move then attack, or attack without moving"
+Movement,Move type determines range,Record byte 10,"0x31=Ground movement, 0x71=Flying movement"
+Dice Roll,Two dice determine attack,0xC75D (animated),"Die spins visually, settles on final value"
+Space Type Bonus,Terrain affects combat,0xC769?,Standing on special tiles (type 02) gives bonus
+Assist Bonus,Adjacent allies boost attack,0xC769 = 02,Number of friendly monsters adjacent to attacker
+Hit Probability,Chance to hit,0xC7E5,"88% standard, 100% guaranteed, 80% reduced"
+Damage Formula,ATK × dice + bonuses - DEF?,0xC763 = result,21 damage observed with assist+space bonus
+Target,Which monster is being attacked,0xC75B,Contains species ID of target
+Level Up,Monsters gain EXP from battle,,"EXP wraps on level-up, stats recalculated from base×level"
+Stat Growth,Per-level stat increase,,"Torike: +4HP, +2ATK, +2DEF, +2SPD per level"

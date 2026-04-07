@@ -1,0 +1,77 @@
+; Yu-Gi-Oh! Monster Capsule GB symbols
+; From Data Crystal wiki + save analysis
+
+; === WRAM addresses ===
+00:C200 wCurrentScreen
+00:C2B0 wC2B0_compare1
+00:C2B1 wC2B1_compare2
+00:C2B2 wC2B2_flags
+00:C2ED wStarChips
+00:C3FE wBitflag
+00:C418 wCapsulePurchaseCount
+00:C69A wBattleValues
+00:C732 wBattleVal1
+00:C733 wBattleVal2
+00:C734 wBattleVal3
+00:C7E1 wBattleClear_start
+00:C7E5 wHitProbability
+00:C7F9 wBattleClear_end
+00:DFED wTitleTimer
+
+; === SRAM addresses ===
+00:A709 sSoundtrackID
+00:B0A1 sCapsuleDropFlag1
+00:B0A3 sCapsuleDropFlag2
+
+; === HRAM ===
+00:FF88 hSoundTestTrack
+00:FF89 hSoundTestSFX
+00:FFA9 hButtonInput
+
+; === ROM Bank 0 ===
+00:0018 rst18_hl_plus_a
+00:007F hl_plus_a_sub
+00:02BA SoundRoutine
+00:2B4D LoadIntroSequence
+00:2C26 LoadRequestedScreen
+00:2C92 ScreenPointers
+00:3B77 LoadSoundtrack
+00:3C1B WriteSoundtrackToSRAM
+00:3C32 DebugSoundTest
+
+; === ROM Bank 1 ===
+01:4004 CapsuleRoutine1
+01:40BE ConditionalBitflag
+01:4E33 ScreenInteractionCheck
+01:4E8C CapsuleDropLookup_12byteStride
+01:4F6E StarChipValidation
+01:4F9E StarChipProcessing
+01:5027 DecrementCounter
+01:5047 ConditionalIncDec
+01:551C ReturnStarChipsOwned
+01:5520 AddOneStarChip
+01:552B RemoveOneStarChip
+01:589C CompareC2B0_C2B1
+01:6E46 FlagCheckRoutine
+01:7A2A RemoveStarChip_IncrC418
+
+; === ROM Bank 8 (Battle) ===
+08:4E95 BattleInit
+08:5665 InitBattleValues
+08:56F6 ClearBattleRange
+08:62AF BattleCall6339
+08:6339 ClearBattleStats
+
+; === ROM Bank 0x0E (Names) ===
+0E:4000 MonsterNameStrings
+0E:459D LastMonsterNameEnd
+0E:45A7 MonsterNamePointerTable
+0E:46A0 MonsterNamePointerTableEnd
+0E:46A1 SkillNameStrings
+0E:51E1 SkillNamesEnd
+0E:51E2 SkillNamePointerTable
+0E:53AF SkillNamePointerTableEnd
+
+; === ROM Bank 0x18 ===
+18:4AF5 TitleScreenButtonDetect
+18:4B09 CheckAStartButtons

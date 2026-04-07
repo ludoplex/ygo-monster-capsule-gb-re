@@ -1,0 +1,15 @@
+Byte,Offset,Field,Save Value,Battle Value,Notes
+0,0x00,Marker,0x80,"0xC0=player, 0x60=NPC",Identifies record type
+1,0x01,Monster ID,Species index,Same,Index into name table at ROM 0x385A7
+2,0x02,Level,1-99,Same,Determines stat scaling
+3,0x03,EXP,0-99,Same,"EXP toward next level, wraps on level-up"
+4,0x04,HP,Computed,Current HP,Base + level scaling
+5,0x05,Unknown,Always 0x00,0x00,
+6,0x06,ATK,Computed,Current ATK,Base + level scaling
+7,0x07,DEF,Computed,Current DEF,Base + level scaling
+8,0x08,SPD,Computed,Current SPD,Base + level scaling
+9,0x09,Unknown,Always 0x00,0x00,
+10,0x0A,Movement Type,0x31 or 0x71,Same,"0x31=Ground, 0x71=Flying?"
+11,0x0B,Species data,Varies,Same,Related to species
+12,0x0C,Species data,Varies,Same,Possibly sprite bank
+13,0x0D,Species data,Varies/0xFF,Same,Possibly sprite offset

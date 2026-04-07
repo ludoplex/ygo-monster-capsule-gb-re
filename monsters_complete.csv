@@ -1,0 +1,125 @@
+ID,Hex,Name,Type,Category
+0,0x00,Ninja Squid,MONSTER,Water
+1,0x01,Great White,MONSTER,Water
+2,0x02,Jellyfish,MONSTER,Water
+3,0x03,Fiend Kraken,MONSTER,Water
+4,0x04,CatpltTurtle,MONSTER,Water
+5,0x05,Leviathan,MONSTER,Water
+6,0x06,Great Pa,MONSTER,Warrior
+7,0x07,Gumbo,MONSTER,Warrior
+8,0x08,Torike,MONSTER,Warrior
+9,0x09,BeaverWarior,MONSTER,Warrior
+10,0x0A,BattleWarior,MONSTER,Warrior
+11,0x0B,Tiger Axe,MONSTER,Warrior
+12,0x0C,MysticHorsmn,MONSTER,Warrior
+13,0x0D,Axe Raider,MONSTER,Warrior
+14,0x0E,Battle Steer,MONSTER,Warrior
+15,0x0F,Battleguard,MONSTER,Warrior
+16,0x10,Garoozis,MONSTER,Warrior
+17,0x11,FlamSwordsmn,MONSTER,Warrior
+18,0x12,Battle Ox,MONSTER,Warrior
+19,0x13,RabidHorsemn,MONSTER,Warrior
+20,0x14,GaiaFiercKni,MONSTER,Warrior
+21,0x15,GaiaDrgnChmp,MONSTER,Warrior
+22,0x16,Toppo,MONSTER,Beast
+23,0x17,Torigun,MONSTER,Beast
+24,0x18,Mtn Warrior,MONSTER,Dragon
+25,0x19,RockOgreGrot,MONSTER,Dragon
+26,0x1A,Ryu-Kishin,MONSTER,Dragon
+27,0x1B,HitotsMeGian,MONSTER,Dragon
+28,0x1C,Harpie Lady,MONSTER,Dragon
+29,0x1D,WingedDragon,MONSTER,Dragon
+30,0x1E,BlacklndDrgn,MONSTER,Dragon
+31,0x1F,Ryu-Kishin P,MONSTER,Dragon
+32,0x20,CrawlingDrgn,MONSTER,Dragon
+33,0x21,KoumoriDragn,MONSTER,Dragon
+34,0x22,CurseOfDragn,MONSTER,Dragon
+35,0x23,Baby Dragon,MONSTER,Dragon
+36,0x24,[7E]??? Dragon,MONSTER,Dragon
+37,0x25,DinosaurWing,MONSTER,Dinosaur
+38,0x26,Armorsaurus,MONSTER,Dinosaur
+39,0x27,ArmordLizard,MONSTER,Dinosaur
+40,0x28,Uraby,MONSTER,Dinosaur
+41,0x29,SwdArmOfDrgn,MONSTER,Dinosaur
+42,0x2A,Megazowler,MONSTER,Undead
+43,0x2B,TwoHeadKRex,MONSTER,Undead
+44,0x2C,Head Sucker,MONSTER,Undead
+45,0x2D,SkullServant,MONSTER,Undead
+46,0x2E,TheSnakeHair,MONSTER,Undead
+47,0x2F,MamothGrvyrd,MONSTER,Undead
+48,0x30,Clown Zombie,MONSTER,Undead
+49,0x31,ArmordZombie,MONSTER,Undead
+50,0x32,DragonZombie,MONSTER,Undead
+51,0x33,Pumpking,MONSTER,Insect
+52,0x34,Beeton,MONSTER,Insect
+53,0x35,Hyper Beetle,MONSTER,Insect
+54,0x36,Mogley,MONSTER,Insect
+55,0x37,Brain Slime,MONSTER,Nature
+56,0x38,Flower Man,MONSTER,Nature
+57,0x39,Eye Mouth,MONSTER,Nature
+58,0x3A,Big Foot,MONSTER,Nature
+59,0x3B,Kuriboh,MONSTER,Beast/Bug
+60,0x3C,Mushroom Man,MONSTER,Beast/Bug
+61,0x3D,Cobrada,MONSTER,Beast/Bug
+62,0x3E,Big Insect,MONSTER,Beast/Bug
+63,0x3F,Basic Insect,MONSTER,Beast/Bug
+64,0x40,KillerNeedle,MONSTER,Beast/Bug
+65,0x41,Gokibore,MONSTER,Beast/Bug
+66,0x42,Wolf,MONSTER,Moth
+67,0x43,Silver Fang,MONSTER,Moth
+68,0x44,Worm Beast,MONSTER,Moth
+69,0x45,Larvae Moth,MONSTER,Moth
+70,0x46,Great Moth [7E],MONSTER,Moth
+71,0x47,Great Moth [7F],MONSTER,Moth
+72,0x48,Great Moth [80],MONSTER,Moth
+73,0x49,Great Moth [81],MONSTER,Moth
+74,0x4A,Great Moth [82],MONSTER,Moth
+75,0x4B,Dragon Piper,MONSTER,Fiend/Spellcaster
+76,0x4C,SaggiDrkClwn,MONSTER,Fiend/Spellcaster
+77,0x4D,Horn Imp,MONSTER,Fiend/Spellcaster
+78,0x4E,Gremlin,MONSTER,Fiend/Spellcaster
+79,0x4F,Grappler,MONSTER,Fiend/Spellcaster
+80,0x50,Zanki,MONSTER,Fiend/Spellcaster
+81,0x51,La Jinn,MONSTER,Fiend/Spellcaster
+82,0x52,Crass Clown,MONSTER,Fiend/Spellcaster
+83,0x53,Dungeon Worm,MONSTER,Fiend/Spellcaster
+84,0x54,Shadow Ghoul,MONSTER,Fiend/Spellcaster
+85,0x55,Swordstalker,MONSTER,Fiend/Spellcaster
+86,0x56,Barox,MONSTER,Fiend/Spellcaster
+87,0x57,Dark Chimera,MONSTER,Fiend/Spellcaster
+88,0x58,Judge Man,MONSTER,Fiend/Spellcaster
+89,0x59,MetlGuardian,MONSTER,Fiend/Spellcaster
+90,0x5A,FacelessMage,MONSTER,Legendary
+91,0x5B,R.E.B.Dragon,MONSTER,Legendary
+92,0x5C,DarkMagician,MONSTER,Legendary
+93,0x5D,SummondSkull,MONSTER,Legendary
+94,0x5E,KngYamimakai,MONSTER,Legendary
+95,0x5F,BlckSkulDrgn,MONSTER,Legendary
+96,0x60,ExodiaLftArm,MONSTER,Legendary
+97,0x61,ExodiaRgtArm,MONSTER,Legendary
+98,0x62,Exodias Legs,MONSTER,Legendary
+99,0x63,Exodias Body,MONSTER,Legendary
+100,0x64,Exodia,MONSTER,Legendary
+101,0x65,Mystical Elf,MONSTER,Special
+102,0x66,Rogue Doll,MONSTER,Special
+103,0x67,CeltcGuardin,MONSTER,Special
+104,0x68,Wattkid,MONSTER,Special
+105,0x69,DrgCapturJar,MONSTER,Special
+106,0x6A,B.E.W.Dragon,MONSTER,Special
+107,0x6B,B.E.U.Dragon,MONSTER,Special
+108,0x6C,ToonAligator,MONSTER,Special
+109,0x6D,ParrotDragon,MONSTER,Special
+110,0x6E,Dark Rabbit,MONSTER,Special
+111,0x6F,Rude Kaiser,MONSTER,Special
+112,0x70,Joey,MONSTER,Character
+113,0x71,Bakura,MONSTER,Character
+114,0x72,Tristan,MONSTER,Character
+115,0x73,T[1A]a,MONSTER,Character
+116,0x74,Solomon,MONSTER,Character
+117,0x75,Yugi,MONSTER,Character
+118,0x76,Yami Yu,MONSTER,Character
+119,0x77,Evo Capsule,ITEM,Item/Capsule
+120,0x78,SkillCapsule,ITEM,Item/Capsule
+121,0x79,HP Capsule,ITEM,Item/Capsule
+122,0x7A,AT Capsule,ITEM,Item/Capsule
+123,0x7B,DF Capsule,ITEM,Item/Capsule

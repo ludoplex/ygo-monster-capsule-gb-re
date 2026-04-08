@@ -56,9 +56,12 @@ This creates Pokemon-style stat variance between identical monsters.
 - Frame-based RNG — result depends on exact frame you press A
 - Rewind + re-roll works for specific monsters
 
-### ROM Classification
-- **92% classified** across 1 MiB ROM
-- 60% text/dialogue, 15% empty, 14% code, 2% graphics, <1% data tables
+### ROM Classification — 100% Complete
+- **100% classified** across 1 MiB ROM (4,096 blocks of 256 bytes)
+- 62.9% text/dialogue (2,575 blocks), 19.1% code (781 blocks), 14.8% empty (607 blocks)
+- 1.9% graphics (78 blocks), 1.3% data tables (55 blocks)
+- Multi-signal classifier: Z80 opcode analysis, Shannon entropy, text encoding detection,
+  2bpp tile recognition, pointer table detection, stride-pattern analysis
 - 230 skill names, 124 monster/item names, 13 capsule machines
 - 112 monsters with full stat data + growth rates
 
@@ -82,7 +85,11 @@ This creates Pokemon-style stat variance between identical monsters.
 | `save_editor.py` | CLI save editor (list/max/chips/unlock/pvp) |
 | `scripts/*.lua` | 6 mGBA Lua scripts for dynamic analysis |
 | `ygo_mcgb.sym` | mGBA symbol file for debugging |
-| `rom_analysis/` | Bank analysis, visual ROM map, 14 session notes |
+| `rom_analysis/block_classifier.py` | Multi-signal block classifier (Z80/entropy/text/graphics) |
+| `rom_analysis/visual_rom_map.md` | Complete visual ROM map at 100% coverage |
+| `rom_analysis/block_map.json` | Machine-readable 4096-block classification |
+| `rom_analysis/reclassification_report.md` | Detailed per-bank reclassification analysis |
+| `rom_analysis/session_notes/` | 15 session notes documenting the RE process |
 
 ## Save Editor
 ```bash
@@ -97,7 +104,7 @@ python3 save_editor.py pvp game.sav --level 50  # Fair PvP save
 - **mGBA 0.10.2** — emulation + Lua scripting + debugger
 - **GHex** — hex editor for save/ROM analysis
 - **Python** — IPS patching, binary diffing, save editing, ROM analysis
-- **Claude Code** — AI-assisted reverse engineering (14 autonomous sessions)
+- **Claude Code** — AI-assisted reverse engineering (15 autonomous sessions)
 
 ## Credits
 - Game: Konami (2000)

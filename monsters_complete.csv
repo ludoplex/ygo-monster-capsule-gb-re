@@ -123,3 +123,4 @@ ID,Hex,Name,Type,Category
 121,0x79,HP Capsule,ITEM,Item/Capsule
 122,0x7A,AT Capsule,ITEM,Item/Capsule
 123,0x7B,DF Capsule,ITEM,Item/Capsule
+124,0x7C,SP Capsule,ITEM,Item/Capsule

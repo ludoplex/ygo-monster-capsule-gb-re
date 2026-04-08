@@ -4,3 +4,4 @@ ID,Hex,Name,Description
 121,0x79,HP Capsule,Boosts HP stat
 122,0x7A,AT Capsule,Boosts ATK stat
 123,0x7B,DF Capsule,Boosts DEF stat
+124,0x7C,SP Capsule,Boosts SPD stat

@@ -160,7 +160,7 @@ Bank  Offset     |0         1         2         3         4         5         6 
 | Offset | Size | Description |
 |--------|------|-------------|
 | 0x0B456 | 896B | Base stat table (112 monsters x 8 bytes) |
-| 0x25317 | 496B | Species data table (124 entries x 4 bytes) |
+| 0x25317 | 500B | Species data table (125 entries x 4 bytes, IDs 0-124) |
 | 0x38000+ | ~2KB | Monster name table |
 | 0x38800+ | ~4KB | Skill name table (230 entries) |
 | 0x48000+ | ~2KB | Capsule machine loot tables (13 machines) |

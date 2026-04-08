@@ -62,7 +62,7 @@ This creates Pokemon-style stat variance between identical monsters.
 - 1.9% graphics (78 blocks), 1.3% data tables (55 blocks)
 - Multi-signal classifier: Z80 opcode analysis, Shannon entropy, text encoding detection,
   2bpp tile recognition, pointer table detection, stride-pattern analysis
-- 230 skill names, 124 monster/item names, 13 capsule machines
+- 230 skill names, 125 monster/item names (112 monsters + 7 characters + 6 items), 13 capsule machines
 - 112 monsters with full stat data + growth rates
 
 ## Files
@@ -74,10 +74,10 @@ This creates Pokemon-style stat variance between identical monsters.
 | `stat_ranges.csv` | Min/max/avg stats at Lv50 and Lv99 for all monsters |
 | `species_data_table.csv` | Movement type + sprite data from ROM |
 | `species_data.py` | Python dict for programmatic access |
-| `monsters_complete.csv` | All 124 game entries with categories |
+| `monsters_complete.csv` | All 125 game entries with categories |
 | `capsule_machines.csv` | 13 capsule machine loot pools decoded from ROM |
 | `skill_names.csv` | 230 attack/skill names from ROM |
-| `capsule_items.csv` | 5 capsule items (Evo, Skill, HP, AT, DF) |
+| `capsule_items.csv` | 6 capsule items (Evo, Skill, HP, AT, DF, SP) |
 | `memory_map.csv` | 40+ WRAM/SRAM addresses with descriptions |
 | `record_format.csv` | 14-byte save record structure |
 | `battle_system.csv` | Battle mechanics documentation |

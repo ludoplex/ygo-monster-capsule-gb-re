@@ -37,7 +37,7 @@
   0x0C000-0x0FFFF  Bank  3: Sound test, soundtrack loading
   0x10000-0x1FFFF  Banks 4-7: Dialogue text (floors 1-6?)
   0x20000-0x23FFF  Bank  8: Battle system code
-    0x25317: Species data table (124 × 4 bytes)
+    0x25317: Species data table (125 × 4 bytes, IDs 0-124)
   0x24000-0x27FFF  Bank  9: Battle support, data tables
   0x28000-0x2FFFF  Banks 10-11: Game logic, dialogue
   0x30000-0x37FFF  Banks 12-13: Data tables, map data

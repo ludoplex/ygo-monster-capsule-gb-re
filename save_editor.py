@@ -6,7 +6,7 @@ Based on confirmed RE findings from dynamic analysis + Data Crystal.
 Save format at SRAM offset 0x4000:
   14-byte records per monster:
     [0]  0x80 = owned marker
-    [1]  Monster species ID (0x00-0x6F=monster, 0x77-0x7B=item)
+    [1]  Monster species ID (0x00-0x6F=monster, 0x77-0x7C=item)
     [2]  Level (1-99)
     [3]  EXP toward next level (wraps on level-up)
     [4]  HP (recomputed from base × level at battle load)
@@ -86,7 +86,7 @@ NAMES = {
     104:"Wattkid", 105:"DrgCapturJar", 106:"B.E.W.Dragon", 107:"B.E.U.Dragon",
     108:"ToonAligator", 109:"ParrotDragon", 110:"Dark Rabbit", 111:"Rude Kaiser",
     119:"Evo Capsule", 120:"SkillCapsule", 121:"HP Capsule",
-    122:"AT Capsule", 123:"DF Capsule",
+    122:"AT Capsule", 123:"DF Capsule", 124:"SP Capsule",
 }
 
 # Type categories for movement type estimation
@@ -240,7 +240,7 @@ def cmd_unlock_all(args):
     
     # Add items if requested
     if args.items:
-        for mid in range(119, 124):
+        for mid in range(119, 125):
             if mid not in existing_ids and next_pos + RECORD_SIZE < MAX_ROSTER_END:
                 rec = make_record(mid, level=99, hp=0, atk=0, def_=0, spd=0)
                 data[next_pos:next_pos+RECORD_SIZE] = rec
@@ -294,7 +294,7 @@ def cmd_pvp(args):
         count += 1
     
     # Add all items
-    for mid in range(119, 124):
+    for mid in range(119, 125):
         rec = make_record(mid, level=99, exp=99, hp=0, atk=0, def_=0, spd=0)
         data[pos:pos+RECORD_SIZE] = rec
         pos += RECORD_SIZE
@@ -317,7 +317,7 @@ def cmd_pvp(args):
     
     open(args.save, 'wb').write(data)
     print(f"✔ PvP save created!")
-    print(f"  {count} entries (112 monsters + 5 items)")
+    print(f"  {count} entries (112 monsters + 6 items)")
     print(f"  All monsters at Lv{args.level} with 0 EXP (equal footing)")
     print(f"  99 star chips")
     print(f"  Stats will be recomputed by game engine at battle load")

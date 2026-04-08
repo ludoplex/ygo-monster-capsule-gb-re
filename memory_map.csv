@@ -1,29 +1,49 @@
-Address,Size,Region,Description,Values/Notes
-0xC200,1,WRAM,Current screen/mode,"01=Overworld, 03=Menu, 04=BattlePrep, 05=BattleGrid, 07=BattleAction"
-0xC2E9,1,WRAM,RNG seed,Cycles on input frames
-0xC2ED,1,WRAM,Star Chips (runtime),Max 99
-0xC418,1,WRAM,Turn/animation counter,Wraps at 4-6
-0xC69A,36,WRAM,6x6 Battle Grid,"01=empty, 02=special terrain, 05=player, 06=wall/enemy"
-0xC680,16,WRAM,Battle control state,
-0xC6BE,16,WRAM,Battle turn state,
-0xC6E0,64,WRAM,Board tile data,"Terrain types, space bonuses"
-0xC733,8,WRAM,Battle values,"Attacker/defender IDs, turn info"
-0xC750,48,WRAM,Damage calculation area,
-0xC759,1,WRAM,Damage counter/turns,Increments during attack
-0xC75A,1,WRAM,HP tracking,Changes during damage
-0xC75B,1,WRAM,Attack target monster ID,Species ID of target
-0xC75D,1,WRAM,Dice roll value,Animated: spins then settles
-0xC75F,1,WRAM,Dice result 1,First die value
-0xC760,1,WRAM,Dice result 2 / animation,
-0xC763,1,WRAM,Damage total,Final damage dealt
-0xC769,1,WRAM,Assist/bonus count,"02=2 assists, 10=space bonus?"
-0xC7E5,1,WRAM,Hit probability %,"58=88%, 64=100%, 50=80%"
-0xC830,32,WRAM,Roster header (battle),
-0xC850,160,WRAM,Active monster records,"14 bytes each: C0=player, 60=NPC"
-0x6374,1,SRAM,Star Chips (save),Persisted value
-0x0204,1,SRAM,Monster count (save),Total owned
-0x4000,var,SRAM,Monster roster (save),"14 bytes each, 80 marker"
-0x10A0,34,SRAM,Player stats block,
-0x101C,1,SRAM,Monster level tracking,
-0x64AB,var,SRAM,Roster mirror (save),Copy of 0x4000 data
-0x63E0,1,SRAM,Level tracking mirror,Copy of 0x101C
+Address,Size,Region,Description,Values/Notes,Source
+0xC200,1,WRAM,Current screen/mode,"00=Loading Intro, 01=Intro, 02=Title, 03=Menu, 04=World map, 05=Battle mode, 06=Sound test",DataCrystal+RE
+0xC201,1,WRAM,Next screen ID,"0xFF = no change",DataCrystal
+0xC2B0,1,WRAM,Compare value 1,,DataCrystal
+0xC2B1,1,WRAM,Compare value 2,,DataCrystal
+0xC2B2,1,WRAM,Compare flags,,DataCrystal
+0xC2E8,8,WRAM,RNG state area,,RE
+0xC2E9,1,WRAM,RNG seed byte,"Cycles on input frames",RE
+0xC2ED,1,WRAM,Star Chips (runtime),"Max 99, min 2 enforced by code at 1:552B",DataCrystal+RE
+0xC3FE,1,WRAM,Status bitflags,"Bit 7 and bit 6 checked",DataCrystal
+0xC418,1,WRAM,Capsule purchase counter,"Incremented by 5 after buying capsule on floor 1F",DataCrystal+RE
+0xC430,32,WRAM,Dialog state,,RE
+0xC44A,32,WRAM,Capsule machine state,"C44C = machine ID",RE
+0xC4FF,32,WRAM,Monster data staging,,RE
+0xC5DA,32,WRAM,Monster data staging 2,,RE
+0xC69A,36,WRAM,6x6 Battle Grid,"01=empty, 02=special terrain, 05=player monster, 06=wall/obstacle. Cleared by routine at 8:5665",DataCrystal+RE
+0xC680,16,WRAM,Battle control state,,RE
+0xC6BE,16,WRAM,Battle turn state,,RE
+0xC6E0,64,WRAM,Board tile data,"Terrain types and space bonuses",RE
+0xC732,1,WRAM,Battle config 1,,DataCrystal
+0xC733,1,WRAM,Battle config 2,"Controls iteration count in 8:6339",DataCrystal
+0xC734,1,WRAM,Battle config 3,,DataCrystal
+0xC750,48,WRAM,Damage calculation area,,RE
+0xC759,1,WRAM,Damage counter/turns,"Increments during attack sequence",RE
+0xC75A,1,WRAM,HP tracking during damage,,RE
+0xC75B,1,WRAM,Attack target monster ID,"Species ID of target being attacked",RE
+0xC75D,1,WRAM,Dice roll value,"Animated: spins then settles on final value",RE
+0xC75F,1,WRAM,Dice result 1,,RE
+0xC760,1,WRAM,Dice result 2 / animation data,,RE
+0xC763,1,WRAM,Damage total,"Final damage dealt to target",RE
+0xC769,1,WRAM,Assist/bonus count,"02=2 adjacent allies assisting, 10=space type bonus",RE
+0xC7E1,24,WRAM,Battle statistics area,"Cleared by routine at 8:56F6 (0x18 bytes)",DataCrystal+RE
+0xC7E5,1,WRAM,Hit probability %,"58=88%, 64=100%, 50=80%",DataCrystal+RE
+0xC830,32,WRAM,Battle roster header,,RE
+0xC850,160,WRAM,Active monster records (battle),"14 bytes each. C0=player team, 60=NPC team",RE
+0xDFED,2,WRAM,Title screen timer,"Starts at 0x383 (899 decimal)",DataCrystal
+0xFF88,1,HRAM,Sound Test track ID,,DataCrystal
+0xFF89,1,HRAM,Sound Test SFX ID,,DataCrystal
+0xFFA9,1,HRAM,Button input,"Bit 4=Right, 5=Left, 6=Up, 7=Down, 0=A, 1=B, 2=Select, 3=Start",DataCrystal
+0xA709,1,SRAM,Current soundtrack ID,,DataCrystal
+0xB0A1,1,SRAM,Capsule drop flag 1,,DataCrystal
+0xB0A3,1,SRAM,Capsule drop flag 2,"Bits 6-7 checked by Star Chip validation at 1:4F6E",DataCrystal
+0x0204,1,SRAM/Save,Monster count,,RE
+0x4000,var,SRAM/Save,Monster roster,"14 bytes per entry, 0x80 marker, up to ~117 entries",RE
+0x6374,1,SRAM/Save,Star Chips (persisted),,RE
+0x101C,1,SRAM/Save,Level tracking byte,,RE
+0x10A0,34,SRAM/Save,Player stats block,,RE
+0x64AB,var,SRAM/Save,Monster roster mirror,"Copy of 0x4000 data",RE
+0x63E0,1,SRAM/Save,Level tracking mirror,"Copy of 0x101C",RE

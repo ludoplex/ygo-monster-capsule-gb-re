@@ -1,0 +1,231 @@
+ID,Name,ROM_Pointer_Offset
+0,Squid Ink,0x391E2
+1,Great Fang,0x391E4
+2,Zap,0x391E6
+3,Tentasqueeze,0x391E8
+4,Water Shot,0x391EA
+5,Tsunami,0x391EC
+6,Gale Slash,0x391EE
+7,Tomahawk,0x391F0
+8,Horn Thunder,0x391F2
+9,Cross Sword,0x391F4
+10,Shine Edge,0x391F6
+11,Screw Knuckle,0x391F8
+12,Tiger Crush,0x391FA
+13,Spear Mantis,0x391FC
+14,Spin Slice,0x391FE
+15,Throat Chop,0x39200
+16,Instant Slice,0x39202
+17,Crescent Slash,0x39204
+18,Strong Axe,0x39206
+19,Spiral Shaver,0x39208
+20,Pounce,0x3920A
+21,Noble Slash,0x3920C
+22,Rock Crush,0x3920E
+23,Fireball,0x39210
+24,Scratch Crush,0x39212
+25,Fire Shard,0x39214
+26,Flamebreath,0x39216
+27,Powered Beam,0x39218
+28,Quake,0x3921A
+29,Fiend Fire,0x3921C
+30,Hellflame,0x3921E
+31,Baby Kick,0x39220
+32,Breath,0x39222
+33,Wing Thunder,0x39224
+34,Flame,0x39226
+35,Lizard Thunder,0x39228
+36,Whip Tail,0x3922A
+37,Dino Tail,0x3922C
+38,Body Slam,0x3922E
+39,Dinosaur Kick,0x39230
+40,Death Sigh,0x39232
+41,Wight Punch,0x39234
+42,Medusa Breath,0x39236
+43,Majestic Rush,0x39238
+44,Zombie Dance,0x3923A
+45,Cursed Slice,0x3923C
+46,Breath,0x3923E
+47,Spirit Plasma,0x39240
+48,Beeton Beam,0x39242
+49,Horn Attack,0x39244
+50,Mogley Punch,0x39246
+51,Poison Spit,0x39248
+52,Fire Flower,0x3924A
+53,Eye Beam,0x3924C
+54,Muscle Punch,0x3924E
+55,Kuriboh Attack,0x39250
+56,Deadly Spores,0x39252
+57,Ant Punch,0x39254
+58,Fire Rifle,0x39256
+59,Poison Sting,0x39258
+60,Roach Attack,0x3925A
+61,Wolf Fang,0x3925C
+62,Poison Soul,0x3925E
+63,Shine Chaos,0x39260
+64,Dark Glide,0x39262
+65,Imp Punch,0x39264
+66,Thunder Horn,0x39266
+67,Gale Slice,0x39268
+68,Magic Lamp,0x3926A
+69,Crass Dance,0x3926C
+70,Acid Splash,0x3926E
+71,Vacuum Slice,0x39270
+72,Grudge Sword,0x39272
+73,Dark Ball,0x39274
+74,Dark Thunder,0x39276
+75,Dark Judgement,0x39278
+76,Lightning Shot,0x3927A
+77,Magic Illusion,0x3927C
+78,BlackSmokeBomb,0x3927E
+79,Dark Magic,0x39280
+80,FiendLightning,0x39282
+81,Dark Wave,0x39284
+82,Meteor,0x39286
+83,Electricity,0x39288
+84,Topple,0x3928A
+85,Jar Punch,0x3928C
+86,Burst,0x3928E
+87,Punch,0x39290
+88,Punch,0x39292
+89,Kick,0x39294
+90,Tackle,0x39296
+91,Exodia Flame,0x39298
+92,Ninja Bomb,0x3929A
+93,SharkFinCutter,0x3929C
+94,Paralyzing Zap,0x3929E
+95,TentacleSplash,0x392A0
+96,Bomb Crusher,0x392A2
+97,Greatsword,0x392A4
+98,Tomahawk Crush,0x392A6
+99,GigaHornThundr,0x392A8
+100,Beaver Special,0x392AA
+101,UltimateTackle,0x392AC
+102,Tiger Spirit,0x392AE
+103,Gale Slice,0x392B0
+104,SteerLightning,0x392B2
+105,Instant[82]-Slice,0x392B4
+106,SpiritFlamSlsh,0x392B6
+107,Earthrend Axe,0x392B8
+108,GreatMegaSmash,0x392BA
+109,NobleGaleSlash,0x392BC
+110,Ogre Crush,0x392BE
+111,Fire Burst,0x392C0
+112,Whip Punish,0x392C2
+113,Flame Meteor,0x392C4
+114,Flamebreath,0x392C6
+115,Powered Laser,0x392C8
+116,Earthquake,0x392CA
+117,Hellfire,0x392CC
+118,Curse Flame,0x392CE
+119,Baby Flame,0x392D0
+120,[7E]???NoseBreath,0x392D2
+121,Thunder Stream,0x392D4
+122,Armor Attack,0x392D6
+123,Giga Thunder,0x392D8
+124,Wild Breath,0x392DA
+125,IronDinoTail,0x392DC
+126,Mega Stomp,0x392DE
+127,DinoFootStomp,0x392E0
+128,Death Breath,0x392E2
+129,Wight Kick,0x392E4
+130,Mammoth Breath,0x392E6
+131,HellAcrobatics,0x392E8
+132,Deadly Breath,0x392EA
+133,King Inferno,0x392EC
+134,Horn Crusher,0x392EE
+135,Flame Flower,0x392F0
+136,Mouth Kiss,0x392F2
+137,Bearhug,0x392F4
+138,Kuriboh Bomb,0x392F6
+139,Mushroom Magic,0x392F8
+140,Cobra Twist,0x392FA
+141,Antlion Pit,0x392FC
+142,Laser Cannon,0x392FE
+143,Killer Beam,0x39300
+144,FlyingRoachAtk,0x39302
+145,Silver Spirit,0x39304
+146,Beast Tail,0x39306
+147,Death Tornado,0x39308
+148,Imp Kick,0x3930A
+149,MystcFlamParad,0x3930C
+150,Crass Bomb,0x3930E
+151,Worm Whip,0x39310
+152,Shadow Mantis,0x39312
+153,Grudge Slice,0x39314
+154,DarkAbsolution,0x39316
+155,Hell Judgement,0x39318
+156,Metal Bomber,0x3931A
+157,ExploSmokeBomb,0x3931C
+158,True Lightning,0x3931E
+159,Magic Pulse,0x39320
+160,Meteor Flare,0x39322
+161,Kid Lightning,0x39324
+162,Ultimate Burst,0x39326
+163,Castle Crusher,0x39328
+164,Pa Special,0x3932A
+165,Lightning Edge,0x3932C
+166,UltScrwKnuckle,0x3932E
+167,Salamander,0x39330
+168,CybrLightnWhip,0x39332
+169,Scorched Earth,0x39334
+170,Lightning Whip,0x39336
+171,Armor Flame,0x39338
+172,VacuumDTail,0x3933A
+173,Twin Burst,0x3933C
+174,Gordian Slash,0x3933E
+175,Giant Swing,0x39340
+176,Lightning Shot,0x39342
+177,Lightning Bee,0x39344
+178,Roach Spirit,0x39346
+179,FullmoonSpirit,0x39348
+180,MagicJudgement,0x3934A
+181,MetalExplosion,0x3934C
+182,Red Burning S,0x3934E
+183,MagicPulseWave,0x39350
+184,Exodia Knuckle,0x39352
+185,Exodia Knuckle,0x39354
+186,Exodia Kick,0x39356
+187,Exodia Press,0x39358
+188,Bitter Smash,0x3935A
+189,AnnihilatSmash,0x3935C
+190,Waterspout,0x3935E
+191,Axe Crusher,0x39360
+192,Spiral Spirit,0x39362
+193,Zanki,0x39364
+194,Bite,0x39366
+195,Beast Fang,0x39368
+196,Moth Hurricane,0x3936A
+197,Moth Tornado,0x3936C
+198,Giga Thunder,0x3936E
+199,Burst Stream,0x39370
+200,Heal,0x39372
+201,PentagramCurse,0x39374
+202,EyeOfIllusion,0x39376
+203,SwrdRevealnLit,0x39378
+204,PentagramCurse,0x3937A
+205,EyeOfIllusion,0x3937C
+206,SwrdRevealnLit,0x3937E
+207,Gator Tomahawk,0x39380
+208,Parrot Fire,0x39382
+209,Toon Attack,0x39384
+210,Kaizer Edge,0x39386
+211,Short Sword,0x39388
+212,Shining Magic,0x3938A
+213,Magic Gun,0x3938C
+214,Death Blaze,0x3938E
+215,Solomon Punch,0x39390
+216,Weak Punch,0x39392
+217,JetStreamPunch,0x39394
+218,Gator Thunder,0x39396
+219,Parrot Flame,0x39398
+220,ToonRolrCoastr,0x3939A
+221,Kaiser Stream,0x3939C
+222,Spirit Slice,0x3939E
+223,ThunderGrenade,0x393A0
+224,Solomon Kick,0x393A2
+225,DarkMillennium,0x393A4
+226,GatorMiracle,0x393A6
+227,ParrotDrgnBurst,0x393A8
+228,ToonMerryGoRnd,0x393AA
+229,ExploSpirtSlce,0x393AC
